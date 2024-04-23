@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Shampoo neutro",
+        "description": "desProdu1",
+        "price": 80,
+        "img": "./img/product1.jpg",
+        "code": "xjf203",
+        "stock": 5,
+        "id": 1
+    },
+    {
+        "title": "Acondicionador",
+        "description": "desProdu2",
+        "price": 120,
+        "img": "./img/product2.jpg",
+        "code": "123abc",
+        "stock": 10,
+        "id": 2
+    },
+    {
+        "title": "Limpia Cristales",
+        "description": "desProdu6",
+        "price": 160,
+        "img": "./img/product3.jpg",
+        "code": "jxp101",
+        "stock": 15,
+        "id": 3
+    },
+    {
+        "title": "product4",
+        "description": "desProdu3",
+        "price": 90,
+        "img": "./img/product4.jpg",
+        "code": "xyz456",
+        "stock": 8,
+        "id": 4
+    },
+    {
+        "title": "Revividor de caucho",
+        "description": "desProdu4",
+        "price": 80,
+        "img": "./img/product1.jpg",
+        "code": "xjf203",
+        "stock": 5,
+        "id": 5
+    },
+    {
+        "title": "Acondicionador para carroceria",
+        "description": "desProdu5",
+        "price": 120,
+        "img": "./img/product2.jpg",
+        "code": "123abc",
+        "stock": 10,
+        "id": 2
+    }
+]
