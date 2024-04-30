@@ -1,7 +1,6 @@
-const fs = require('fs').promises
-const path = require('path')
-
-
+import { promises as fs } from "fs";
+import path from "path";
+import __dirname from "../utils.js";
 
 class CartManager {
     constructor(pathfile) {
@@ -24,12 +23,12 @@ class CartManager {
         }
     }
 
-    newCart = async () =>{
+    newCart = async () => {
         try {
-           
+
             const carts = await this.getCarts();
 
-           
+
             const lastId = carts.length > 0 ? carts[carts.length - 1].id : 0;
 
             const newCart = {
@@ -39,7 +38,7 @@ class CartManager {
 
             carts.push(newCart);
 
-            
+
             await fs.writeFile(this.path, JSON.stringify(carts));
 
             return newCart;
@@ -74,5 +73,4 @@ class CartManager {
         }
     }
 }
-
-module.exports = CartManager
+export default CartManager;

@@ -1,7 +1,6 @@
-const fs = require('fs').promises
-const path = require('path');
-const express = require('express')
-const router = express.Router()
+import { promises as fs } from "fs";
+import path from "path";
+import __dirname from "../utils.js";
 
 
 class ProductManager {
@@ -134,5 +133,8 @@ class ProductManager {
 }
 
 
-module.exports = ProductManager
 
+
+
+
+export default ProductManager;
